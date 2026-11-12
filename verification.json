@@ -1,0 +1,212 @@
+{
+  "pass": true,
+  "checks": {
+    "twoFloors": true,
+    "furnished": true,
+    "electrified": true,
+    "noModelErrors": true,
+    "noPageErrors": true
+  },
+  "floors": [
+    {
+      "floor": 0,
+      "name": "云栖小墅 · 两层（完全虚构示例） · 一层",
+      "rooms": 12,
+      "furniture": 62,
+      "electricalPoints": 144,
+      "mepKeys": [],
+      "customRuns": 0,
+      "issues": [
+        {
+          "id": "i0",
+          "level": "info",
+          "type": "遮挡窗户",
+          "msg": "车库储物架 高 2,000mm，挡住了窗户（窗台高 1,500mm）",
+          "targets": [
+            {
+              "kind": "furn",
+              "id": "7kgas7iy"
+            }
+          ],
+          "at": {
+            "id": "7kgas7iy",
+            "key": "garageShelf",
+            "type": "garageShelf",
+            "name": "车库储物架",
+            "w": 2400,
+            "d": 500,
+            "h": 2000,
+            "color": "#6b7078",
+            "x": 370,
+            "y": 5300,
+            "rot": 270
+          }
+        },
+        {
+          "id": "i1",
+          "level": "info",
+          "type": "遮挡窗户",
+          "msg": "淋浴房 高 2,000mm，挡住了窗户（窗台高 1,200mm）",
+          "targets": [
+            {
+              "kind": "furn",
+              "id": "ue5vsep9"
+            }
+          ],
+          "at": {
+            "id": "ue5vsep9",
+            "key": "shower",
+            "type": "shower",
+            "name": "淋浴房",
+            "w": 1000,
+            "d": 900,
+            "h": 2000,
+            "color": "#e9eef2",
+            "x": 20180,
+            "y": 620,
+            "rot": 0
+          }
+        },
+        {
+          "id": "i2",
+          "level": "info",
+          "type": "遮挡窗户",
+          "msg": "淋浴房 高 2,000mm，挡住了窗户（窗台高 900mm）",
+          "targets": [
+            {
+              "kind": "furn",
+              "id": "ls4rirym"
+            }
+          ],
+          "at": {
+            "id": "ls4rirym",
+            "key": "shower",
+            "type": "shower",
+            "name": "淋浴房",
+            "w": 1000,
+            "d": 900,
+            "h": 2000,
+            "color": "#e9eef2",
+            "x": 20180,
+            "y": 7890,
+            "rot": 0
+          }
+        },
+        {
+          "id": "i3",
+          "level": "info",
+          "type": "水电",
+          "msg": "叠水景墙附近缺少：防水插座",
+          "targets": [
+            {
+              "kind": "furn",
+              "id": "njvl7gp4"
+            }
+          ],
+          "at": {
+            "id": "njvl7gp4",
+            "key": "waterFeature",
+            "type": "waterFeature",
+            "name": "叠水景墙",
+            "w": 2000,
+            "d": 600,
+            "h": 1500,
+            "color": "#9a948a",
+            "x": 11000,
+            "y": 18500,
+            "rot": 180
+          }
+        }
+      ]
+    },
+    {
+      "floor": 1,
+      "name": "云栖小墅 · 两层（完全虚构示例） · 二层",
+      "rooms": 11,
+      "furniture": 32,
+      "electricalPoints": 100,
+      "mepKeys": [],
+      "customRuns": 0,
+      "issues": [
+        {
+          "id": "i0",
+          "level": "info",
+          "type": "遮挡窗户",
+          "msg": "淋浴房 高 2,000mm，挡住了窗户（窗台高 1,500mm）",
+          "targets": [
+            {
+              "kind": "furn",
+              "id": "a87cyows"
+            }
+          ],
+          "at": {
+            "id": "a87cyows",
+            "key": "shower",
+            "type": "shower",
+            "name": "淋浴房",
+            "w": 1000,
+            "d": 1000,
+            "h": 2000,
+            "color": "#e9eef2",
+            "x": 9640,
+            "y": 650,
+            "rot": 0
+          }
+        },
+        {
+          "id": "i1",
+          "level": "info",
+          "type": "遮挡窗户",
+          "msg": "淋浴房 高 2,000mm，挡住了窗户（窗台高 1,200mm）",
+          "targets": [
+            {
+              "kind": "furn",
+              "id": "a9coqwoi"
+            }
+          ],
+          "at": {
+            "id": "a9coqwoi",
+            "key": "shower",
+            "type": "shower",
+            "name": "淋浴房",
+            "w": 1000,
+            "d": 900,
+            "h": 2000,
+            "color": "#e9eef2",
+            "x": 20180,
+            "y": 620,
+            "rot": 0
+          }
+        },
+        {
+          "id": "i2",
+          "level": "info",
+          "type": "水电",
+          "msg": "挑空 没有灯位",
+          "targets": [],
+          "at": {
+            "id": "z0qyeaoj",
+            "x": 13150,
+            "y": 7900,
+            "name": "挑空",
+            "mat": "oak"
+          }
+        },
+        {
+          "id": "i3",
+          "level": "info",
+          "type": "通行检查",
+          "msg": "没有设置入户门（选中门后勾选“入户门”），无法检查通道宽度",
+          "targets": [],
+          "at": {
+            "id": "cpga7njo",
+            "x": 6800,
+            "y": 3000
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "screenshotsGenerated": 0
+}

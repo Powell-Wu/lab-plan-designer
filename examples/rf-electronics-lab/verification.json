@@ -1,0 +1,192 @@
+{
+  "pass": true,
+  "case": "澄波实验室（完全虚构）",
+  "generator": "examples/rf-electronics-lab/generate_demo.py",
+  "demos": {
+    "A": "lab-demo.html",
+    "B": "examples/rf-electronics-lab/lab-demo-layout-b.html"
+  },
+  "checks": {
+    "A": {
+      "pass": true,
+      "bounds_mm": [
+        0,
+        0,
+        8000,
+        6000
+      ],
+      "totalArea_m2": 41.77,
+      "rooms": [
+        {
+          "name": "射频/电子学实验室（虚构）",
+          "area_m2": 28.66,
+          "size_mm": "5,140 × 5,600",
+          "interior": [
+            5230,
+            1600
+          ]
+        },
+        {
+          "name": "机柜/储物区（虚构）",
+          "area_m2": 13.1,
+          "size_mm": "2,340 × 5,600",
+          "interior": [
+            1370,
+            3000
+          ]
+        }
+      ],
+      "issues": [],
+      "errors": [],
+      "dimIssues": [],
+      "dimConflicts": []
+    },
+    "B": {
+      "pass": true,
+      "bounds_mm": [
+        0,
+        0,
+        8000,
+        6000
+      ],
+      "totalArea_m2": 41.77,
+      "rooms": [
+        {
+          "name": "射频/电子学实验室（虚构）",
+          "area_m2": 28.66,
+          "size_mm": "5,140 × 5,600",
+          "interior": [
+            5230,
+            2100
+          ]
+        },
+        {
+          "name": "机柜/储物区（虚构）",
+          "area_m2": 13.1,
+          "size_mm": "2,340 × 5,600",
+          "interior": [
+            1370,
+            3000
+          ]
+        }
+      ],
+      "issues": [],
+      "errors": [],
+      "dimIssues": [],
+      "dimConflicts": []
+    }
+  },
+  "qa": {
+    "mode": "--lite --quick",
+    "passed": 109,
+    "total": 109,
+    "failed": [],
+    "unverified": [],
+    "pageErrors": [],
+    "pass": true
+  },
+  "qaFiles": {
+    "passed": 22,
+    "total": 22,
+    "returnCode": 0,
+    "pass": true
+  },
+  "elecAudit": {
+    "A": {
+      "pass": true,
+      "returnCode": 0,
+      "total": {
+        "points": 30,
+        "lights": 6,
+        "switches": 2
+      },
+      "problems": 0,
+      "notes": 0,
+      "checkIssues": [],
+      "rooms": [
+        {
+          "n": "机柜/储物区（虚构）",
+          "k": "store",
+          "area": 13.1,
+          "lights": 2,
+          "switches": 1,
+          "sockets": 5
+        },
+        {
+          "n": "射频/电子学实验室（虚构）",
+          "k": "other",
+          "area": 28.7,
+          "lights": 4,
+          "switches": 1,
+          "sockets": 7
+        }
+      ]
+    },
+    "B": {
+      "pass": true,
+      "returnCode": 0,
+      "total": {
+        "points": 31,
+        "lights": 6,
+        "switches": 2
+      },
+      "problems": 0,
+      "notes": 0,
+      "checkIssues": [],
+      "rooms": [
+        {
+          "n": "机柜/储物区（虚构）",
+          "k": "store",
+          "area": 13.1,
+          "lights": 2,
+          "switches": 1,
+          "sockets": 5
+        },
+        {
+          "n": "射频/电子学实验室（虚构）",
+          "k": "other",
+          "area": 28.7,
+          "lights": 4,
+          "switches": 1,
+          "sockets": 7
+        }
+      ]
+    }
+  },
+  "screenshots": {
+    "A": [
+      "examples/rf-electronics-lab/screenshots/plan2d-a.png",
+      "examples/rf-electronics-lab/screenshots/view3d-a.png"
+    ],
+    "B": [
+      "examples/rf-electronics-lab/screenshots/plan2d-b.png",
+      "examples/rf-electronics-lab/screenshots/view3d-b.png"
+    ],
+    "audit": [
+      "examples/rf-electronics-lab/check-a",
+      "examples/rf-electronics-lab/check-b"
+    ]
+  },
+  "residentialRegression": {
+    "pass": true,
+    "entry": "residential-demo.html",
+    "floors": 2,
+    "errors": [],
+    "warnings": [],
+    "pageErrors": []
+  },
+  "screenshotReview": {
+    "plan2dAndView3dManuallyRead": true,
+    "qaShotsReviewed": 132,
+    "presentationImagesManuallyRead": 4,
+    "pass": true
+  },
+  "publicReview": {
+    "cleanSnapshot": true,
+    "oldGitHistoryIncluded": false,
+    "upstreamReferenceRastersIncluded": false,
+    "workingTreeSensitiveHits": 0,
+    "brokenMarkdownLinks": 0,
+    "imagesWithExif": 0
+  }
+}

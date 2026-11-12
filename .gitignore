@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+private/
+outputs/
+.work/
+*.dwg
+*.xlsx
+*.xls
+*.zip
+*.log
+.build_walls.json

@@ -1,0 +1,542 @@
+{
+  "name": "澄波实验室 · B 设备周边式（完全虚构）",
+  "height": 3000,
+  "heightFrom": "estimated",
+  "phase": "renovate",
+  "demo": true,
+  "privacy": "fully_fictional",
+  "dataOrigin": "synthetic_concept_only",
+  "layout": "B",
+  "layoutNote": "B 设备周边式：北侧控制台，东侧真空/射频设备，中央实验平台，东南冷却，南侧维护区。",
+  "engineeringStatus": "unverified_concept_not_for_construction",
+  "walls": [
+    {
+      "a": [
+        2600,
+        100
+      ],
+      "b": [
+        2600,
+        5900
+      ],
+      "t": 120,
+      "bearing": false,
+      "bearingFrom": "inferred",
+      "openings": [
+        {
+          "type": "hole",
+          "from": 3200,
+          "to": 4800,
+          "head": 2400,
+          "unsure": "内分区与开放洞口均为虚构演示，用于讨论机柜/储物区与实验操作区的关系。"
+        }
+      ]
+    },
+    {
+      "a": [
+        100,
+        100
+      ],
+      "b": [
+        7900,
+        100
+      ],
+      "t": 200,
+      "bearing": false,
+      "bearingFrom": "inferred"
+    },
+    {
+      "a": [
+        7900,
+        100
+      ],
+      "b": [
+        7900,
+        5900
+      ],
+      "t": 200,
+      "bearing": false,
+      "bearingFrom": "inferred"
+    },
+    {
+      "a": [
+        100,
+        5900
+      ],
+      "b": [
+        7900,
+        5900
+      ],
+      "t": 200,
+      "bearing": false,
+      "bearingFrom": "inferred",
+      "openings": [
+        {
+          "type": "door",
+          "from": 900,
+          "to": 2000,
+          "hinge": "from",
+          "into": [
+            1450,
+            5000
+          ],
+          "entry": true,
+          "unsure": "门位、门宽和开向均为虚构演示，不是现场测绘或消防疏散设计。"
+        }
+      ]
+    },
+    {
+      "a": [
+        100,
+        100
+      ],
+      "b": [
+        100,
+        5900
+      ],
+      "t": 200,
+      "bearing": false,
+      "bearingFrom": "inferred"
+    }
+  ],
+  "rooms": [
+    {
+      "at": [
+        1600,
+        2000
+      ],
+      "name": "机柜/储物区（虚构）",
+      "mat": "epoxy",
+      "wallMat": "latexGrey",
+      "ceil": {
+        "type": "flat",
+        "drop": 200,
+        "color": "#e8ecef"
+      },
+      "skirting": "metal"
+    },
+    {
+      "at": [
+        5800,
+        3400
+      ],
+      "name": "射频/电子学实验室（虚构）",
+      "mat": "epoxy",
+      "wallMat": "latexGrey",
+      "ceil": {
+        "type": "flat",
+        "drop": 200,
+        "color": "#e8ecef"
+      },
+      "skirting": "metal"
+    }
+  ],
+  "structs": [
+    {
+      "kind": "shaft",
+      "at": [
+        7550,
+        4200
+      ],
+      "w": 300,
+      "d": 400
+    },
+    {
+      "kind": "drain",
+      "at": [
+        7350,
+        4200
+      ]
+    }
+  ],
+  "furniture": [
+    {
+      "key": "garageShelf",
+      "at": [
+        1600,
+        500
+      ],
+      "rot": 0,
+      "name": "耗材储物 S1（虚构）",
+      "w": 1600,
+      "d": 600,
+      "h": 2000
+    },
+    {
+      "key": "freeBox",
+      "at": [
+        600,
+        1400
+      ],
+      "rot": 270,
+      "name": "机柜 R1（虚构）",
+      "w": 800,
+      "d": 800,
+      "h": 2100,
+      "color": "#39434e",
+      "opt": {
+        "shape": "box",
+        "mat": "metal"
+      }
+    },
+    {
+      "key": "freeBox",
+      "at": [
+        600,
+        2600
+      ],
+      "rot": 270,
+      "name": "机柜 R2（虚构）",
+      "w": 800,
+      "d": 800,
+      "h": 2100,
+      "color": "#39434e",
+      "opt": {
+        "shape": "box",
+        "mat": "metal"
+      }
+    },
+    {
+      "key": "desk",
+      "at": [
+        4000,
+        600
+      ],
+      "rot": 0,
+      "name": "控制台 C1（虚构）",
+      "w": 2200,
+      "d": 800
+    },
+    {
+      "key": "officeChair",
+      "at": [
+        3500,
+        1550
+      ],
+      "rot": 180,
+      "name": "控制席 C1-A（虚构）"
+    },
+    {
+      "key": "officeChair",
+      "at": [
+        4500,
+        1550
+      ],
+      "rot": 180,
+      "name": "控制席 C1-B（虚构）"
+    },
+    {
+      "key": "freeRoundBox",
+      "at": [
+        4500,
+        3200
+      ],
+      "rot": 0,
+      "name": "光学/实验平台 T1（虚构）",
+      "w": 2400,
+      "d": 1400,
+      "h": 900,
+      "color": "#4d565e",
+      "opt": {
+        "shape": "roundBox",
+        "mat": "metal",
+        "r": 40
+      }
+    },
+    {
+      "key": "freeBox",
+      "at": [
+        4050,
+        3150
+      ],
+      "rot": 0,
+      "name": "示波器 T1-A（虚构）",
+      "w": 500,
+      "d": 350,
+      "h": 300,
+      "color": "#303b47",
+      "opt": {
+        "shape": "box",
+        "mat": "metal"
+      },
+      "z": 900
+    },
+    {
+      "key": "freeBox",
+      "at": [
+        4950,
+        3150
+      ],
+      "rot": 0,
+      "name": "射频源 T1-B（虚构）",
+      "w": 500,
+      "d": 350,
+      "h": 300,
+      "color": "#303b47",
+      "opt": {
+        "shape": "box",
+        "mat": "metal"
+      },
+      "z": 900
+    },
+    {
+      "key": "freeBox",
+      "at": [
+        7400,
+        1400
+      ],
+      "rot": 90,
+      "name": "真空设备 V1（虚构）",
+      "w": 900,
+      "d": 800,
+      "h": 1200,
+      "color": "#9aa5ad",
+      "opt": {
+        "shape": "box",
+        "mat": "metal"
+      }
+    },
+    {
+      "key": "freeBox",
+      "at": [
+        7400,
+        2900
+      ],
+      "rot": 90,
+      "name": "射频设备 RF1（虚构）",
+      "w": 900,
+      "d": 800,
+      "h": 1500,
+      "color": "#52677b",
+      "opt": {
+        "shape": "box",
+        "mat": "metal"
+      }
+    },
+    {
+      "key": "freeBox",
+      "at": [
+        6800,
+        5400
+      ],
+      "rot": 180,
+      "name": "闭式冷却机组 CU1（虚构）",
+      "w": 1000,
+      "d": 800,
+      "h": 1200,
+      "color": "#53838c",
+      "opt": {
+        "shape": "box",
+        "mat": "metal"
+      }
+    },
+    {
+      "key": "rug",
+      "at": [
+        4500,
+        4750
+      ],
+      "rot": 0,
+      "name": "维护预留区 M1（虚构）",
+      "w": 1800,
+      "d": 1500,
+      "color": "#d5b85c"
+    }
+  ],
+  "elec": [
+    {
+      "kind": "socket16",
+      "at": [
+        200,
+        2000
+      ],
+      "rot": -90,
+      "h": 300
+    },
+    {
+      "kind": "socket16",
+      "at": [
+        200,
+        3400
+      ],
+      "rot": -90,
+      "h": 300
+    },
+    {
+      "kind": "socketUSB",
+      "at": [
+        5500,
+        200
+      ],
+      "rot": 0,
+      "h": 1100
+    },
+    {
+      "kind": "net",
+      "at": [
+        5900,
+        200
+      ],
+      "rot": 0,
+      "h": 300
+    },
+    {
+      "kind": "socket16",
+      "at": [
+        7800,
+        2200
+      ],
+      "rot": 90,
+      "h": 1100
+    },
+    {
+      "kind": "socket16",
+      "at": [
+        7800,
+        3600
+      ],
+      "rot": 90,
+      "h": 1100
+    },
+    {
+      "kind": "socket16",
+      "at": [
+        5900,
+        5800
+      ],
+      "rot": 180,
+      "h": 300
+    },
+    {
+      "kind": "cold",
+      "at": [
+        7800,
+        4000
+      ],
+      "rot": 90,
+      "h": 600
+    },
+    {
+      "kind": "waste",
+      "at": [
+        7800,
+        4600
+      ],
+      "rot": 90,
+      "h": 300
+    }
+  ],
+  "autoElec": true,
+  "mep": {
+    "power": "ceil",
+    "water": "ceil",
+    "floorStyle": "ortho"
+  },
+  "look": {
+    "style": "diorama",
+    "palette": "industrial",
+    "labels": true
+  },
+  "dims": [
+    {
+      "name": "虚构东西向墙中线",
+      "line": "y=5900",
+      "from": 100,
+      "segs": [
+        7800
+      ],
+      "ref": "center"
+    },
+    {
+      "name": "虚构南北向墙中线",
+      "line": "x=7900",
+      "from": 100,
+      "segs": [
+        5800
+      ],
+      "ref": "center"
+    },
+    {
+      "name": "虚构内分区定位",
+      "line": "y=100",
+      "from": 100,
+      "segs": [
+        2500,
+        5300
+      ],
+      "ref": "center"
+    },
+    {
+      "name": "虚构入口门洞",
+      "line": "y=5900",
+      "from": 900,
+      "segs": [
+        1100
+      ],
+      "ref": "face"
+    }
+  ],
+  "expectDims": {
+    "top": [
+      200,
+      2340,
+      120,
+      5140,
+      200
+    ],
+    "bottom": [
+      200,
+      2340,
+      120,
+      5140,
+      200
+    ],
+    "left": [
+      200,
+      5600,
+      200
+    ],
+    "right": [
+      200,
+      5600,
+      200
+    ]
+  },
+  "comments": [
+    {
+      "at": [
+        4000,
+        3000
+      ],
+      "text": "完全虚构的概念实验室：无真实地址、客户、订单、实测数据或工程资料。所有尺寸和设备仅用于交互展示。"
+    },
+    {
+      "at": [
+        400,
+        400
+      ],
+      "text": "墙体厚度、非承重属性和 3000mm 层高均为推断；未做结构、承重或拆改计算。"
+    },
+    {
+      "at": [
+        7400,
+        1400
+      ],
+      "text": "设备外形是通用几何占位，不代表真实品牌、型号、重量、散热或安全认证。"
+    },
+    {
+      "at": [
+        7400,
+        3200
+      ],
+      "text": "给排水和冷却接口仅作需求沟通；未做水力、排水、泄漏或防水计算，须由专业人员确认。"
+    },
+    {
+      "at": [
+        2200,
+        5600
+      ],
+      "text": "插座、网络和自动管线是通用引擎生成的概念点位，不是配电、接地、EMC 或消防设计。"
+    }
+  ]
+}

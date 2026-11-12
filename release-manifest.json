@@ -1,0 +1,587 @@
+{
+  "name": "lab-plan-designer",
+  "snapshot": "clean-public",
+  "fileCount": 116,
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 703,
+      "sha256": "f19279510b1e5c00c0f0544abee7750b257a8792a2982fd71d06f1d756a1da8a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 124,
+      "sha256": "5e56bfbfe5be74bf037fa3c68f10d1aa5ad880ce5ab1c1c3ea1e2c7eb88543ce"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1083,
+      "sha256": "35c7ad19aa3f051733a1df0c41b7e3520eb6a7617e254d90ac583c179f660e30"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1540,
+      "sha256": "4eef5a804f1543960ac97461eee2a925964cbcab537231804b2441b7e1cacbf2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6956,
+      "sha256": "0a962252834db04a4e32cbdca3665f48f24eb389541aefc0e936f76459ed67d1"
+    },
+    {
+      "path": "demo-with-library.html",
+      "bytes": 2219170,
+      "sha256": "50a65bf0ad718b2494bb4a5cc876cacbab07260534d3919e1544e071a2e093c5"
+    },
+    {
+      "path": "examples/duplex-villa/furniture-import.json",
+      "bytes": 2595,
+      "sha256": "f9bcd81141016de72036b1574684befcccae017a44136f1d3e3c4b5cfb510acb"
+    },
+    {
+      "path": "examples/duplex-villa/generate_demo.py",
+      "bytes": 15035,
+      "sha256": "7f4a20aa95b37c4aa3fe21bf4c65bb516cdb288040f6b79ebf42137bebc40dd6"
+    },
+    {
+      "path": "examples/duplex-villa/spec.json",
+      "bytes": 27357,
+      "sha256": "fb01e1e161918e7f812aec5d2112d947ba2b40938403320761a8a861f211ce2f"
+    },
+    {
+      "path": "examples/rf-electronics-lab/README.md",
+      "bytes": 4790,
+      "sha256": "ceff05fa5a1d5609c3c2ccf4f20f358b5a68157243517f0ddd6fbe05ac1a719f"
+    },
+    {
+      "path": "examples/rf-electronics-lab/check-a/plan2d.png",
+      "bytes": 206592,
+      "sha256": "2ffb0b06a5c0477f3be9e816593b63c0a74ede971814518c960e8ce7ed2d54b9"
+    },
+    {
+      "path": "examples/rf-electronics-lab/check-a/report.json",
+      "bytes": 2553,
+      "sha256": "f7431eba1fd624e9547b0e1a3295f74444fe77082eed84dbcd17494fc2720ed0"
+    },
+    {
+      "path": "examples/rf-electronics-lab/check-a/view3d.png",
+      "bytes": 224695,
+      "sha256": "abf19c8dd38283d6c1c458b6022770e8e016901f62f120c66ad0ace41bc8d8ed"
+    },
+    {
+      "path": "examples/rf-electronics-lab/check-b/plan2d.png",
+      "bytes": 210251,
+      "sha256": "3506470e1a8a550c75d38f8235609b29669660c62dfd67887668d027185bb0f6"
+    },
+    {
+      "path": "examples/rf-electronics-lab/check-b/report.json",
+      "bytes": 2556,
+      "sha256": "7c57c07cba1be2f69e2ea296ca18e7488bf04b6e2e4e5e7e777d568ea83bea66"
+    },
+    {
+      "path": "examples/rf-electronics-lab/check-b/view3d.png",
+      "bytes": 212544,
+      "sha256": "ef65758161ad837e122f1c6294e3688b6a6216dac8060e8109f92b03147e6f8a"
+    },
+    {
+      "path": "examples/rf-electronics-lab/generate_demo.py",
+      "bytes": 10619,
+      "sha256": "1573b3a3f3a11b8c117a354d177f9447e2f842579268093b173df2ae0e183943"
+    },
+    {
+      "path": "examples/rf-electronics-lab/interface-requirements.csv",
+      "bytes": 3507,
+      "sha256": "1189e81cbeff04230001d11372bcb4030a0e11efeba9e5354269ed351360f9fb"
+    },
+    {
+      "path": "examples/rf-electronics-lab/lab-demo-layout-b.html",
+      "bytes": 2207433,
+      "sha256": "1cedbddf5d89ac32940445e96bd9ef07454a4ab474d12731f346799d42bfb4c9"
+    },
+    {
+      "path": "examples/rf-electronics-lab/layout-comparison.md",
+      "bytes": 1898,
+      "sha256": "0dafdf2298927fcabe556826ceb3b5a55b6ac8937511c33ece204340e14051c9"
+    },
+    {
+      "path": "examples/rf-electronics-lab/professional-review.md",
+      "bytes": 3134,
+      "sha256": "1e589e7a31fda49c3e769ef00c15c0c24b343ad90689126a0d8d116bffb44b6c"
+    },
+    {
+      "path": "examples/rf-electronics-lab/release-audit.md",
+      "bytes": 2589,
+      "sha256": "859c9c3c4fdda51d62c5b2e97cb8183cefbbb32d45ea7f958b6ba809e5861d75"
+    },
+    {
+      "path": "examples/rf-electronics-lab/screenshots/plan2d-a.png",
+      "bytes": 181568,
+      "sha256": "333981bc7794989be35778270ed7de5de58278eadb04f25661ac587943ca99c3"
+    },
+    {
+      "path": "examples/rf-electronics-lab/screenshots/plan2d-b.png",
+      "bytes": 185834,
+      "sha256": "602e83f885744944bd81f172c45e123754e96371cb0d27f3a6e26425dca0ff28"
+    },
+    {
+      "path": "examples/rf-electronics-lab/screenshots/view3d-a.png",
+      "bytes": 426837,
+      "sha256": "f367227df1962f2ad0af44006aa62e7c55be52b2c86764d8806b20054043abe0"
+    },
+    {
+      "path": "examples/rf-electronics-lab/screenshots/view3d-b.png",
+      "bytes": 414339,
+      "sha256": "87d7297ea993d89393e796124684d8aeca9aa97675252a0514099b6b10105f42"
+    },
+    {
+      "path": "examples/rf-electronics-lab/spec-layout-b.json",
+      "bytes": 9892,
+      "sha256": "745ec9254221ba17c85381e5a936fa3296c681e9d5fda2b9a982c5458f247194"
+    },
+    {
+      "path": "examples/rf-electronics-lab/spec.json",
+      "bytes": 9882,
+      "sha256": "657c36136a4d578c671c17ab6aea32ce7cc166fae003f232cb3da2c7f447f3c2"
+    },
+    {
+      "path": "examples/rf-electronics-lab/verification.json",
+      "bytes": 4298,
+      "sha256": "eb27262fb66b64f1310d3f492fc4366a2f3026ce645724516a75aec168521090"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5159,
+      "sha256": "e5cc89003073c537e2d73797dbf72627996d60f34d4b5fe06321cdd8ac064cae"
+    },
+    {
+      "path": "lab-demo.html",
+      "bytes": 2207420,
+      "sha256": "0239b6076642f7c4700f1895f31185b830ead35ea5e6bcbdf80cfb0a9b512d6c"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 80,
+      "sha256": "e0f83523ef29b91520deedba9bae51c0fc0a9c797069e6046bc5e73183ba674c"
+    },
+    {
+      "path": "residential-demo.html",
+      "bytes": 2214115,
+      "sha256": "0e0c95f97a9ee69e862302d7f743e66f6ddaaa8cfd51d17d8e442f96f0c3c355"
+    },
+    {
+      "path": "scripts/import_furniture.py",
+      "bytes": 2253,
+      "sha256": "47bb7d15949e0ef858733abfba2c7170eda40c79653eb58485fc05ad2dd9f7c6"
+    },
+    {
+      "path": "skill/house-plan-designer/.gitignore",
+      "bytes": 74,
+      "sha256": "72b6d00f97c52da3b7a624eff3df5cdf847e3a6e2960c907e0331df084573d73"
+    },
+    {
+      "path": "skill/house-plan-designer/LICENSE",
+      "bytes": 1083,
+      "sha256": "35c7ad19aa3f051733a1df0c41b7e3520eb6a7617e254d90ac583c179f660e30"
+    },
+    {
+      "path": "skill/house-plan-designer/README.md",
+      "bytes": 58052,
+      "sha256": "d4347487a47c900764623561e72ed254382318b07eafaaba674a7082c2e386ad"
+    },
+    {
+      "path": "skill/house-plan-designer/SKILL.md",
+      "bytes": 10920,
+      "sha256": "d554657a3e452d70d3146474638184bc2f9e52bd36aec014ecac5364cbaa05c7"
+    },
+    {
+      "path": "skill/house-plan-designer/assets/icon.png",
+      "bytes": 720682,
+      "sha256": "56ff34c847dd2e7d6746f76516a06334261e4b14234812402b45f235b424c3c1"
+    },
+    {
+      "path": "skill/house-plan-designer/assets/template.html",
+      "bytes": 2201994,
+      "sha256": "3c89230474f5811bd349d8956b7fc8392ceea864cf1144808da53bcae7dee902"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/OPTIONAL-EXAMPLES.md",
+      "bytes": 1037,
+      "sha256": "ae95af9026964088e73a098ece300c0afcc271f5e78fdb2c1c1897fdbefe9178"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/cad-conventions.md",
+      "bytes": 14675,
+      "sha256": "9d95b0319f3dea7e7394ff58031b7d0a2d06f0406b70f3e3916e3719253e1b0b"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/catalog-sizes.json",
+      "bytes": 8430,
+      "sha256": "230532c0be42172f13aca42011e832e13f0eb146a6890acf958ac58115cc5ee9"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/delivery.md",
+      "bytes": 14479,
+      "sha256": "fc299e49e2f5c584686a152e508bebee751cc731e1d5237247d20413eebe4e20"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/env-cloud.md",
+      "bytes": 2732,
+      "sha256": "e68941b9b66eef309d9f14358ab8a11abc60a90704f3f39f5c48dc1c6e97352e"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/example-gen-building.py",
+      "bytes": 5366,
+      "sha256": "5916ab885cfe86fc90981b8a08a68f337d4b97e00e305622defd0b072ac29abe"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/example-gen-cad.py",
+      "bytes": 4756,
+      "sha256": "8744809c93fabd3e661b4dd13ddc401e4c7a7a2b4c9b6503cdc211379434757b"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/example-gen-duplex.py",
+      "bytes": 12384,
+      "sha256": "bfca93cca46b21cc0b77d45b07d126294f425305517eca4751fbacaa37601122"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/example-gen-furnished.py",
+      "bytes": 17197,
+      "sha256": "9eaec946561a66af23efb6429adee8fcc0dddf01859e94734bd3325014fe7784"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/example-gen-office-dxf.py",
+      "bytes": 37012,
+      "sha256": "654f1f16af26d1356dcc0a9e948409e61bb046bb7b9bbe3bd0137656c84f7773"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/example-gen-precise.py",
+      "bytes": 9601,
+      "sha256": "06f5c8f4110b8eeb50e43bc11e4b0717d4d41ae68579f680c2cce124ad97575e"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/example-gen-villa.py",
+      "bytes": 14973,
+      "sha256": "63cdec2c674efe0ff674f097b8242eb15764e5cf7aa94d834200272a005b146e"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/example-gen.py",
+      "bytes": 4170,
+      "sha256": "c3be017c2b4965968b4cbaa72e6c0d6c82266ec58c570dea99bce723a0bfda40"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/example-walk-route.json",
+      "bytes": 834,
+      "sha256": "8232576357e56af6c13a54f80338c31a4cd84be8c582f95d3a8279db896dcf0a"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/furnishing.md",
+      "bytes": 12893,
+      "sha256": "04e14eda109167dd7c416bc2e83d771bab83d53d22bcb85eee92f0da0c3cdfcb"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/mep-rules.md",
+      "bytes": 13799,
+      "sha256": "1f925f4d39cb5a008cd47388618b5c49b5843e832ad14828a199ca17e10838c7"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/route-building.md",
+      "bytes": 15159,
+      "sha256": "d1ff26ab851e33d2b027364ecd6cc435ab13440567ec72a06a566310598ec7fe"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/route-cad.md",
+      "bytes": 6449,
+      "sha256": "075f7f3cdf0f5d66a928ad7f0010e0f0610eefdc2206451a2583ab4b3d45a4fd"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/route-dual.md",
+      "bytes": 3146,
+      "sha256": "f5fa3ed688509b84dc3e8280ad63e8b7bfbe7cea5a7df4445dd8a0bdcc93799b"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/route-dxf-layout.md",
+      "bytes": 7165,
+      "sha256": "acb4d96c935d91aaa9ba069617320b907d29d754d7d495d9348b5bcbd1d663ab"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/route-image.md",
+      "bytes": 10069,
+      "sha256": "8e8afa8b875ab7c9516d1b9b10efa994d52107cc20cc6884f8a42f59754cea6e"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/route-office.md",
+      "bytes": 3203,
+      "sha256": "35b315b00afb3275a2737bdbd3a6e595c78656e2342027c510c3471d33488ab6"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/route-villa.md",
+      "bytes": 4402,
+      "sha256": "d98018c88b950b4a347ac6bd263ac96f32b9d04534c13126f470073bf9c9b3aa"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/spec-format.md",
+      "bytes": 45194,
+      "sha256": "b87d56293032e4450a8a3bd0d257d971be85fb3aae1b11a8e4c239dca349b82a"
+    },
+    {
+      "path": "skill/house-plan-designer/reference/workflow-check.md",
+      "bytes": 7197,
+      "sha256": "7796ba00ae50b62fdf9d964fbb88a8279fffa904b780148842799908e9eb48bc"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/align2.py",
+      "bytes": 8740,
+      "sha256": "7fe672456848d118f686c0d45c2e865f68882d16cad4b7426579a560d8914e34"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/analyze.py",
+      "bytes": 21676,
+      "sha256": "4f0dffa241908f326d570502c753ddb6e96e19ca98dbb9fefb6ea4507eb98db4"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/axismap.py",
+      "bytes": 3901,
+      "sha256": "c83d644d7295c90c78055b2022906ee243c8aef7ffd697765d5eae8eae69a3fc"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/browser.mjs",
+      "bytes": 7135,
+      "sha256": "c29fe5d74a5c749b345a9dc8d2c65e8e614b83e60669e24da6bbd879d3bbea2f"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/build.py",
+      "bytes": 6024,
+      "sha256": "dddf3a0efa76bfba46e82667f37fae0e25123c6364ec43c07107eeab88e76309"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/cadpair.py",
+      "bytes": 13083,
+      "sha256": "dfa1cebda8cdc19a287664d0704fa7e9474fdb9b75cb6617c300c4c7135b2f4e"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/cadshot.py",
+      "bytes": 10860,
+      "sha256": "ea89ed2392b2737b9f7573e4c850632c728470cc7528f70d319011aafe237893"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/cadsplit.py",
+      "bytes": 47915,
+      "sha256": "06d1b43af779f7407cdfe72508497d9a66a4518da6ed00dc6a0387703adde7d3"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/cadvec.py",
+      "bytes": 95556,
+      "sha256": "63e5cbe278613e020a9529e7367858e2bb7ac84753015fe9d22475a9b8973909"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/check.mjs",
+      "bytes": 13542,
+      "sha256": "f94f369f9ad30446ea4c27e5f9242492b9f9e4e105d240d725505706f95c935f"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/clicktest.mjs",
+      "bytes": 2486,
+      "sha256": "9057d3fd32e911641d33a5db0d094951201f22fa5d56eb088146e4b3893f00a6"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/closeup.mjs",
+      "bytes": 2804,
+      "sha256": "67db1966a6fa05e95dbe65a1e83212864cb5c28a1ea6aa8cc10bddc9adfd9843"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/birdshot.mjs",
+      "bytes": 1958,
+      "sha256": "732ff68695f757e508748f5e4feab9df5a6be1068c0678b63c28a4ee52a7a6f5"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/compare.py",
+      "bytes": 3603,
+      "sha256": "d483e5de7f0ca99c7002e115027fd7515274aa3d566e6a39ca3d01c95cbb9877"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/dumprooms.mjs",
+      "bytes": 1219,
+      "sha256": "11925451f370b6511aac61d74ef5834023e8d412ba1fe7a4176bd36f3030c33d"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/eval.mjs",
+      "bytes": 1061,
+      "sha256": "868502feb5aef097b17c50d52a6d76e760fe373cb78b710b5d5a2a9243ef7342"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/fps.mjs",
+      "bytes": 2094,
+      "sha256": "4b980fafac956bfa1b611d2dd2988b5d1d10a3922eda3cf3ae046d9b765bd447"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/grab.mjs",
+      "bytes": 825,
+      "sha256": "4ee15f79b213f18f7d972a75d4d69b05e0434e872bd4bfa6e949839e0a0c4b14"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/libshot.mjs",
+      "bytes": 1896,
+      "sha256": "535189d8233b03d8c31984a69f506f2e9c5a816d7681c3ec9e4cb105e33db16f"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/make_test_dxf.py",
+      "bytes": 6575,
+      "sha256": "42f315f2d4ab24817dc866d2d7824796a7e2d73be5ff485115993215f01a8e53"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/mk_dxf_template.py",
+      "bytes": 4782,
+      "sha256": "2dc4859abb9551c3314d5adfaf7a6ea7982bab29e5dcab3530b39df497f5b6dc"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/ptshots.mjs",
+      "bytes": 1365,
+      "sha256": "2d33aa0ea403f2a4c0d2870446f50d919dd0ee098f94de8232b1dcfbbff8312c"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/sharetest.mjs",
+      "bytes": 6380,
+      "sha256": "772d9370b672cc473ac32fbf54e70693b26935d0cbcc50dbc4572bcf17902200"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/shot3d.mjs",
+      "bytes": 1346,
+      "sha256": "74e74881b100c2cab8d0ba50cd8dccef55fb7a262b0de731747f9332cbea9fa0"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/swinfo.mjs",
+      "bytes": 1367,
+      "sha256": "ee7de60e4046ffafcb101f4fa3e009f1a6d64c18f64c6523cf3b5548599aa824"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/swwall.mjs",
+      "bytes": 1091,
+      "sha256": "eb231d08ec49fe0bdfe1650dcd749e2b11f84151c48a1f0aaae03f33f14e9730"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/uitest.mjs",
+      "bytes": 2299,
+      "sha256": "9ce9488c9f31d7936f15393b26df943a041baeec86dbd09c831e5e5bd6b3e042"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dev/walk_lights.mjs",
+      "bytes": 4278,
+      "sha256": "11d78f94875079204a013de6e2fee0a5d73c818a83bd41ef773b621e110e428c"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dimocr.py",
+      "bytes": 10570,
+      "sha256": "4f3db450969c2c5fab72ffb2c6fd3f111ac9babd36037248e2a068e22fbd6c8f"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dimtext.py",
+      "bytes": 14263,
+      "sha256": "3a3cd01750d881ad1f0c8eee5971313fc8fd5951c6d1813a985fbc6d8cf62062"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dimticks.py",
+      "bytes": 5656,
+      "sha256": "14543d27e738b4c1a80a7b3f349c7572c3d78d1015e248707943ab2898481b08"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dxf_prepare.py",
+      "bytes": 3880,
+      "sha256": "9cc66ab8325d1e556b1de16c6d191d4a703d7f33b07bb8fb97b28541cdfa430e"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dxfaudit.py",
+      "bytes": 17465,
+      "sha256": "177132aa2fe19c815b8359052f87fb84b0466ccdc001b20829f46360eabd58b9"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/dxfinventory.py",
+      "bytes": 10399,
+      "sha256": "3d09a58c2ba1ec153fd4c871b8d9c9bd84c4396e5e2bdd15e8bbf41118ef702a"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/elecaudit.mjs",
+      "bytes": 10827,
+      "sha256": "9f94ddd037bd22118a5066160454dc56b62e161b659f884b616e91ecb799e4ea"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/furnoverlay.py",
+      "bytes": 6151,
+      "sha256": "8bed78c4f74f73baa058658b98fc7ac179c0ddeff23edbaa1a343b9e5a52109d"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/gridmm.py",
+      "bytes": 2372,
+      "sha256": "93954427e996acf10159ae8a293e48b152404feeb505a6cca047d51c06f0af3e"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/imgio.py",
+      "bytes": 1791,
+      "sha256": "d0223d6ba5bfd0775c82bf4ff42b0fffd63fc972d2ab11149217a0c677f3e381"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/package-lock.json",
+      "bytes": 11910,
+      "sha256": "1c179be0371b54891b94eb7669ed070cb0244c6a3e66f7c8250ceebf3c65719d"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/package.json",
+      "bytes": 149,
+      "sha256": "024f298da3a0abfc1cb1a2ed82d6c726886a849cd02aa1263e1d800ff1d51d51"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/qa.mjs",
+      "bytes": 93784,
+      "sha256": "7b55e8b9b9b0b34765636c263e15827dc456e1237e45ad9900ebb30cf2d28557"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/qa_files.py",
+      "bytes": 3378,
+      "sha256": "6bf82dfac100f063f3b88d18d5818537161466a53217eecfaff0a70bf3837410"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/qa_furniture.mjs",
+      "bytes": 5251,
+      "sha256": "52d7a696fbe99948e651fdf86464a7efa60d5db4ada5915ec3c96706a8d43347"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/qa_styles.mjs",
+      "bytes": 4149,
+      "sha256": "1c77583af31c1eebe70a624670d84562ba044cd60d9cb640954e019c8d2254bf"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/safe-output.mjs",
+      "bytes": 681,
+      "sha256": "ec3196700fd50b9d1361e386c1186c9a4253582e96d265cb6f1beadcb61bc168"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/walktest.mjs",
+      "bytes": 3451,
+      "sha256": "5e0904877d258e9a4a8043abfe3db1420d361fb7083f2a34fd24b86b42e3a937"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/wallaudit.py",
+      "bytes": 10390,
+      "sha256": "5b83e2623790450784d024c001d31e8e936698a7942c0ca2acc5975bcc2d0e70"
+    },
+    {
+      "path": "skill/house-plan-designer/scripts/wallfit.py",
+      "bytes": 3565,
+      "sha256": "f7972e7d94c55803aa3616e63c4f644398cc22a588307908b3ec5c4e5cd211f4"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 5182,
+      "sha256": "db8ba060d7d6bffc0adcc6e7098a3ba9e0cc89c256a5c0708d326ec385e0d6cb"
+    },
+    {
+      "path": "verify_demo.mjs",
+      "bytes": 2249,
+      "sha256": "eeef367d21038db0e73b7008047c4dd28f3559a3ea13c4008a3c5255fa6c07ca"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+ "name": "澄波实验室 · B 设备周边式（完全虚构）",
+ "height": 3000,
+ "walls": 7,
+ "openings": 2,
+ "openingsDropped": 0,
+ "openingsHidden": [],
+ "wallsSkewed": [],
+ "wallsDropped": [],
+ "bounds_mm": [
+  0,
+  0,
+  8000,
+  6000
+ ],
+ "totalArea_m2": 41.77,
+ "rooms": [
+  {
+   "name": "射频/电子学实验室（虚构）",
+   "area_m2": 28.66,
+   "size_mm": "5,140 × 5,600",
+   "interior": [
+    5230,
+    2100
+   ]
+  },
+  {
+   "name": "机柜/储物区（虚构）",
+   "area_m2": 13.1,
+   "size_mm": "2,340 × 5,600",
+   "interior": [
+    1370,
+    3000
+   ]
+  }
+ ],
+ "labelsOutsideRooms": [],
+ "freeWallEnds": [],
+ "exteriorDims": {
+  "top": {
+   "openings": [],
+   "axis": [
+    200,
+    2340,
+    120,
+    5140,
+    200
+   ],
+   "total": 8000
+  },
+  "bottom": {
+   "openings": [
+    900,
+    1100,
+    540,
+    120,
+    5340
+   ],
+   "axis": [
+    200,
+    2340,
+    120,
+    5140,
+    200
+   ],
+   "total": 8000
+  },
+  "left": {
+   "openings": [],
+   "axis": [
+    200,
+    5600,
+    200
+   ],
+   "total": 6000
+  },
+  "right": {
+   "openings": [],
+   "axis": [
+    200,
+    5600,
+    200
+   ],
+   "total": 6000
+  }
+ },
+ "issues": [],
+ "issuesDetail": [],
+ "dimChains": [
+  {
+   "name": "虚构东西向墙中线",
+   "line": "y=5900",
+   "ticks": [
+    {
+     "i": 0,
+     "mm": 100,
+     "near": 100,
+     "kind": "墙中线",
+     "diff": 0
+    },
+    {
+     "i": 1,
+     "mm": 7900,
+     "near": 7900,
+     "kind": "墙中线",
+     "diff": 0
+    }
+   ],
+   "bad": 0
+  },
+  {
+   "name": "虚构南北向墙中线",
+   "line": "x=7900",
+   "ticks": [
+    {
+     "i": 0,
+     "mm": 100,
+     "near": 100,
+     "kind": "墙中线",
+     "diff": 0
+    },
+    {
+     "i": 1,
+     "mm": 5900,
+     "near": 5900,
+     "kind": "墙中线",
+     "diff": 0
+    }
+   ],
+   "bad": 0
+  },
+  {
+   "name": "虚构内分区定位",
+   "line": "y=100",
+   "ticks": [
+    {
+     "i": 0,
+     "mm": 100,
+     "near": 100,
+     "kind": "墙中线",
+     "diff": 0
+    },
+    {
+     "i": 1,
+     "mm": 2600,
+     "near": 2600,
+     "kind": "墙中线",
+     "diff": 0
+    },
+    {
+     "i": 2,
+     "mm": 7900,
+     "near": 7900,
+     "kind": "墙中线",
+     "diff": 0
+    }
+   ],
+   "bad": 0
+  },
+  {
+   "name": "虚构入口门洞",
+   "line": "y=5900",
+   "ticks": [
+    {
+     "i": 0,
+     "mm": 900,
+     "near": 900,
+     "kind": "door边",
+     "diff": 0
+    },
+    {
+     "i": 1,
+     "mm": 2000,
+     "near": 2000,
+     "kind": "door边",
+     "diff": 0
+    }
+   ],
+   "bad": 0
+  }
+ ],
+ "dimIssues": [],
+ "dimConflicts": [],
+ "errors": []
+}

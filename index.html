@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="完全虚构的射频/电子学实验室 A/B 交互方案，以及通用住宅设计器示例。">
+  <title>Lab Plan Designer · 虚构实验室展示</title>
+  <style>
+    :root { color-scheme: light; --ink:#17242d; --muted:#5a6972; --line:#dce4e8; --accent:#176b73; --soft:#eef5f5; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px/1.65 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif; color:var(--ink); background:#f7f9fa; }
+    a { color:var(--accent); }
+    main { width:min(1100px,calc(100% - 32px)); margin:0 auto; padding:42px 0 28px; }
+    header { display:grid; gap:12px; margin-bottom:26px; }
+    .tag { width:max-content; padding:4px 10px; border:1px solid #9fc3c5; border-radius:999px; color:var(--accent); font-size:13px; font-weight:650; }
+    h1 { margin:0; font-size:clamp(28px,5vw,46px); line-height:1.18; letter-spacing:0; }
+    h2 { margin:0 0 6px; font-size:21px; }
+    p { margin:6px 0; }
+    .lead { max-width:760px; color:var(--muted); font-size:17px; }
+    .hero { overflow:hidden; border:1px solid var(--line); border-radius:16px; background:white; box-shadow:0 10px 30px #17313d0c; }
+    .hero img { display:block; width:100%; max-height:500px; object-fit:cover; object-position:center 54%; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin:22px 0; }
+    .card { display:flex; flex-direction:column; gap:10px; padding:20px; border:1px solid var(--line); border-radius:14px; background:white; }
+    .card p { color:var(--muted); flex:1; }
+    .button { display:inline-block; width:max-content; padding:8px 14px; border-radius:8px; background:var(--accent); color:white; text-decoration:none; font-weight:650; }
+    .button.secondary { background:var(--soft); color:var(--accent); border:1px solid #b8d3d5; }
+    .docs { display:flex; flex-wrap:wrap; gap:10px 18px; padding:18px 0; border-top:1px solid var(--line); }
+    .boundary { padding:16px 18px; border-left:4px solid #c79432; background:#fff8e9; color:#5c4a24; }
+    footer { margin-top:24px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+    @media (max-width:800px) { .grid { grid-template-columns:1fr; } main { padding-top:26px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <span class="tag">完全虚构 · 交互式方案沟通</span>
+      <h1>Lab Plan Designer</h1>
+      <p class="lead">以约 8m × 6m 的射频/电子学实验室为主案例，比较两种设备布局，体验 2D、3D、漫游和概念水电接口。所有设备、尺寸和点位均为虚构或推断。</p>
+    </header>
+
+    <a class="hero" href="lab-demo.html" aria-label="打开实验室 A 布局">
+      <img src="examples/rf-electronics-lab/screenshots/view3d-a.png" alt="虚构射频实验室 A 布局的三维剖切展示">
+    </a>
+
+    <section class="grid" aria-label="案例入口">
+      <article class="card">
+        <h2>A · 集中岛式</h2>
+        <p>中央实验平台、南侧控制台、北侧真空/射频设备，适合讨论中央操作动线。</p>
+        <a class="button" href="lab-demo.html">打开 A 布局</a>
+      </article>
+      <article class="card">
+        <h2>B · 设备周边式</h2>
+        <p>北侧控制台、东侧真空/射频设备，适合讨论周边检修与线缆组织。</p>
+        <a class="button" href="examples/rf-electronics-lab/lab-demo-layout-b.html">打开 B 布局</a>
+      </article>
+      <article class="card">
+        <h2>住宅通用能力示例</h2>
+        <p>完全虚构的两层“云栖小墅”，展示多层住宅、家具、自动水电和导出能力。</p>
+        <a class="button secondary" href="residential-demo.html">打开住宅示例</a>
+      </article>
+    </section>
+
+    <p class="boundary"><strong>使用边界：</strong>本展示不做承重、消防、配电或水力计算承诺，不验证 EMC、真空、冷却或维护净距，不可直接用于采购、施工或验收。</p>
+
+    <nav class="docs" aria-label="文档与更多案例">
+      <a href="README.md">项目说明 README</a>
+      <a href="examples/rf-electronics-lab/README.md">实验室案例与复现</a>
+      <a href="examples/rf-electronics-lab/layout-comparison.md">A/B 布局对比</a>
+      <a href="examples/rf-electronics-lab/interface-requirements.csv">接口需求表</a>
+      <a href="examples/rf-electronics-lab/professional-review.md">待专业确认清单</a>
+      <a href="examples/rf-electronics-lab/release-audit.md">验收与公开审计</a>
+      <a href="demo-with-library.html">通用家具库示例</a>
+    </nav>
+
+    <footer>
+      <p>上游设计器：<a href="https://github.com/ZWD11/house-plan-designer">ZWD11/house-plan-designer</a>，MIT License。署名与许可证保留在 <a href="NOTICE.md">NOTICE</a> 和 <a href="LICENSE">LICENSE</a>。</p>
+      <p>本公开快照不包含旧仓库 Git 历史或上游未确认来源的 reference 位图。</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "house-plan-designer-scripts",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "puppeteer-core": "^25.16.0"
+  }
+}
